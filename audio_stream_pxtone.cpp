@@ -29,6 +29,8 @@
 
 #include "core/io/file_access.h"
 
+#include "core/object/class_db.h"
+
 constexpr float i16_f32mul = 1.0f / 32768.0f;
 
 int AudioStreamPlaybackPxTone::_mix_internal(AudioFrame *p_buffer, int p_frames) {

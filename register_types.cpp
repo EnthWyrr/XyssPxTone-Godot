@@ -29,6 +29,8 @@
 
 #include "audio_stream_pxtone.h"
 
+#include "core/object/class_db.h"
+
 #ifdef TOOLS_ENABLED
 #include "core/config/engine.h"
 #include "resource_importer_pxtone.h"
